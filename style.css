@@ -1,0 +1,140 @@
+:root {
+  background-color: rgb(14, 24, 39);
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#app {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 5rem 2rem 2rem 2rem;
+  gap: 3rem;
+}
+
+h2 {
+  font-size: 1.35rem;
+  color: rgb(11, 65, 145);
+  letter-spacing: -0.05em;
+}
+
+header {
+  min-height: 40vh;
+  background-color: beige;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  color: darkblue;
+  cursor: pointer;
+}
+
+a:hover {
+  color: coral;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  color: rgb(14, 24, 39);
+  font-size: 8em;
+  font-weight: bold;
+  height: 100px;
+}
+
+.text-content {
+  background-color: azure;
+  border-radius: 1rem;
+  object-fit: cover;
+  max-width: 280px;
+}
+
+.text-position {
+  padding: 0.8rem 1.5rem 1.2rem 1.5rem;
+}
+
+.text-color {
+  color: grey;
+}
+
+.img-content > img {
+  width: 280px;
+  /* border-bottom: 3px solid red; */
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.img-logo > img {
+  width: 50px;
+}
+
+.navegation {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em 0.5em;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 1em 0 0 0;
+}
+
+nav > ul > li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2rem;
+  height: 100%;
+  border-left:  1px solid rgb(14, 24, 39);;
+  border-right:  1px solid rgb(14, 24, 39);;
+  font-size: 1.3em;
+  text-decoration: none;
+}
+
+footer {
+  font-size: 1.5em;
+  color: bisque;
+  padding: 3em 0 5em 0;
+  text-align: center;
+}
+
+.nav-buttons {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.aspect-btn {
+  width: 140px;
+  height: 50px;
+  cursor: pointer;
+  background-color: bisque;
+  font-size: 1.15rem;
+  border-radius: 0.3rem;
+}
+
+.aspect-btn:hover {
+  background-color: rgb(91, 205, 236);
+  color: bisque;
+}
+
+.alive {
+  color: rgb(0, 222, 0);
+}
+
+.dead {
+  color: red;
+}
+
+.unknown {
+  color: rgb(255, 179, 0);
+}
